@@ -1,6 +1,20 @@
+*{
+	border-bottom: 1px solid black;
+}
+
+
+.ajuste{
+	width: 100%;
+}
+
 #home{
 	background:  #ffc107;
 	color: white;
+	width: 100%;
+}
+
+#cadastro{
+	width: 100%;
 }
 
 .caixa{
@@ -10,4 +24,37 @@
 
 footer p a{
 	margin: 5px 15px;
+}
+
+@media only screen and (max-width: 436px){
+	.ajuste{
+		width: 80%;
+	}
+
+	#titulo{
+		font-size: 40px;
+	}
+
+	#cadastro{
+		width: 128%;
+	}
+}
+
+@media only screen and (max-width: 352px){
+	#botao{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 318px){
+	#titulo{
+		font-size: 35px;
+	}
+
+}
+
+@media only screen and (max-width: 280px){
+	#titulo{
+		font-size: 30px;
+	}
 }
