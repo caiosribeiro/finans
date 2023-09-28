@@ -46,10 +46,6 @@ footer p a{
 		font-size: 35px;
 	}
 
-	body{
-		width: 98%;
-	}
-
 }
 
 @media only screen and (max-width: 280px){
