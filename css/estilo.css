@@ -1,8 +1,3 @@
-*{
-	border-bottom: 1px solid black;
-}
-
-
 .ajuste{
 	width: 100%;
 }
@@ -51,10 +46,14 @@ footer p a{
 		font-size: 35px;
 	}
 
+	body{
+		width: 99%;
+	}
+
 }
 
 @media only screen and (max-width: 280px){
 	#titulo{
-		font-size: 25px;
+		font-size: 30px;
 	}
 }
